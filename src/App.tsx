@@ -1,9 +1,11 @@
+import React from 'react'
 import './App.css';
+import LoginForm from './components/LoginForm';
 
 const App = () => {
   return (
     <div className="content">
-      <h1>テストを書く練習</h1>
+      <LoginForm/>
       <p>セットアップ中</p>
     </div>
   );
